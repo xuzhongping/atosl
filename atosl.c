@@ -22,8 +22,8 @@
 #include <libgen.h>
 #include <limits.h>
 
-#include <dwarf.h>
-#include <libdwarf.h>
+#include "dwarf.h"
+#include "libdwarf.h"
 
 #include "atosl.h"
 #include "subprograms.h"
