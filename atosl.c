@@ -1184,7 +1184,7 @@ int main(int argc, char *argv[]) {
     }
 
     if (!options.dsym_filename)
-        fatal("no filename specified with -o");
+        fatal("没有用-o指定文件名");
 
     fd = open(options.dsym_filename, O_RDONLY);
     if (fd < 0)
@@ -1197,7 +1197,7 @@ int main(int argc, char *argv[]) {
         fatal_file(fd);
 
     if (magic == FAT_CIGAM) {
-        /* Find the architecture we want.. */
+        /* 查找我们想要的架构.. */
         uint32_t nfat_arch;
 
         ret = _read(fd, &nfat_arch, sizeof(nfat_arch));
@@ -1260,8 +1260,7 @@ int main(int argc, char *argv[]) {
                             errarg, &dbg, &err);
     DWARF_ASSERT(ret, err);
 
-    /* If there is dwarf info we'll use that to parse, otherwise we'll use the
-     * symbol table */
+    /* 如果有dwarf信息，我们将使用它来解析，否则我们将使用符号表 */
     if (context.is_dwarf && ret == DW_DLV_OK) {
 
         struct subprograms_options_t opts = {

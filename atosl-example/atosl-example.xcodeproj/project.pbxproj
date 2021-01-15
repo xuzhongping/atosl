@@ -11,6 +11,61 @@
 		C0EDAFC325B06A160059EF1D /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = C0EDAFBD25B06A160059EF1D /* common.c */; };
 		C0EDAFC425B06A160059EF1D /* atosl.c in Sources */ = {isa = PBXBuildFile; fileRef = C0EDAFBF25B06A160059EF1D /* atosl.c */; };
 		C0EDAFC525B06A160059EF1D /* subprograms.c in Sources */ = {isa = PBXBuildFile; fileRef = C0EDAFC225B06A160059EF1D /* subprograms.c */; };
+		ED40982225B115EE00D05546 /* dwarf_error.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097AF25B115EE00D05546 /* dwarf_error.c */; };
+		ED40982325B115EE00D05546 /* dwarf_string.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097B425B115EE00D05546 /* dwarf_string.c */; };
+		ED40982425B115EE00D05546 /* dwarf_sort_line.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097B525B115EE00D05546 /* dwarf_sort_line.c */; };
+		ED40982525B115EE00D05546 /* pro_reloc.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097B725B115EE00D05546 /* pro_reloc.c */; };
+		ED40982625B115EE00D05546 /* pro_macinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097B825B115EE00D05546 /* pro_macinfo.c */; };
+		ED40982725B115EE00D05546 /* dwarf_vars.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097BC25B115EE00D05546 /* dwarf_vars.c */; };
+		ED40982825B115EE00D05546 /* dwarf_types.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097BE25B115EE00D05546 /* dwarf_types.c */; };
+		ED40982925B115EE00D05546 /* dwarf_line.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097C425B115EE00D05546 /* dwarf_line.c */; };
+		ED40982A25B115EE00D05546 /* pro_funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097C525B115EE00D05546 /* pro_funcs.c */; };
+		ED40982B25B115EE00D05546 /* pro_weaks.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097C725B115EE00D05546 /* pro_weaks.c */; };
+		ED40982C25B115EE00D05546 /* dwarf_arange.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097C825B115EE00D05546 /* dwarf_arange.c */; };
+		ED40982D25B115EE00D05546 /* dwarf_query.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097C925B115EE00D05546 /* dwarf_query.c */; };
+		ED40982E25B115EE00D05546 /* dwarf_util.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097CB25B115EE00D05546 /* dwarf_util.c */; };
+		ED40982F25B115EE00D05546 /* dwarf_addr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097CD25B115EE00D05546 /* dwarf_addr_finder.c */; };
+		ED40983025B115EE00D05546 /* dwarf_line2.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097CE25B115EE00D05546 /* dwarf_line2.c */; };
+		ED40983125B115EE00D05546 /* pro_init.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097D025B115EE00D05546 /* pro_init.c */; };
+		ED40983225B115EE00D05546 /* pro_line.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097D125B115EE00D05546 /* pro_line.c */; };
+		ED40983325B115EE00D05546 /* dwarf_frame2.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097D225B115EE00D05546 /* dwarf_frame2.c */; };
+		ED40983425B115EE00D05546 /* pro_vars.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097D425B115EE00D05546 /* pro_vars.c */; };
+		ED40983525B115EE00D05546 /* dwarf_loc.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097D525B115EE00D05546 /* dwarf_loc.c */; };
+		ED40983625B115EE00D05546 /* pro_reloc_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097D725B115EE00D05546 /* pro_reloc_stream.c */; };
+		ED40983725B115EE00D05546 /* pro_finish.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097D825B115EE00D05546 /* pro_finish.c */; };
+		ED40983825B115EE00D05546 /* dwarf_frame.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097DA25B115EE00D05546 /* dwarf_frame.c */; };
+		ED40983925B115EE00D05546 /* pro_forms.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097DB25B115EE00D05546 /* pro_forms.c */; };
+		ED40983A25B115EE00D05546 /* dwarf_print_lines.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097DC25B115EE00D05546 /* dwarf_print_lines.c */; };
+		ED40983B25B115EE00D05546 /* pro_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097E025B115EE00D05546 /* pro_alloc.c */; };
+		ED40983C25B115EE00D05546 /* dwarf_macro.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097E125B115EE00D05546 /* dwarf_macro.c */; };
+		ED40983D25B115EE00D05546 /* malloc_check.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097E425B115EE00D05546 /* malloc_check.c */; };
+		ED40983E25B115EE00D05546 /* pro_pubnames.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097E525B115EE00D05546 /* pro_pubnames.c */; };
+		ED40983F25B115EE00D05546 /* pro_error.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097E925B115EE00D05546 /* pro_error.c */; };
+		ED40984025B115EE00D05546 /* libdwarf2p.1.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED4097EA25B115EE00D05546 /* libdwarf2p.1.mm */; };
+		ED40984125B115EE00D05546 /* pro_arange.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097EC25B115EE00D05546 /* pro_arange.c */; };
+		ED40984225B115EE00D05546 /* mips_extensions.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED4097ED25B115EE00D05546 /* mips_extensions.mm */; };
+		ED40984325B115EE00D05546 /* pro_die.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097EF25B115EE00D05546 /* pro_die.c */; };
+		ED40984425B115EE00D05546 /* dwarf_frame3.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097F225B115EE00D05546 /* dwarf_frame3.c */; };
+		ED40984525B115EE00D05546 /* dwarf.v2.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED4097F325B115EE00D05546 /* dwarf.v2.mm */; };
+		ED40984625B115EE00D05546 /* dwarf_abbrev.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097F625B115EE00D05546 /* dwarf_abbrev.c */; };
+		ED40984725B115EE00D05546 /* dwarf_global.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097FA25B115EE00D05546 /* dwarf_global.c */; };
+		ED40984825B115EE00D05546 /* dwarf_die_deliv.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097FD25B115EE00D05546 /* dwarf_die_deliv.c */; };
+		ED40984925B115EE00D05546 /* dwarf_stubs.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097FE25B115EE00D05546 /* dwarf_stubs.c */; };
+		ED40984A25B115EE00D05546 /* dwarf_funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = ED4097FF25B115EE00D05546 /* dwarf_funcs.c */; };
+		ED40984B25B115EE00D05546 /* dwarf_weaks.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40980025B115EE00D05546 /* dwarf_weaks.c */; };
+		ED40984C25B115EE00D05546 /* dwarf_pubtypes.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40980225B115EE00D05546 /* dwarf_pubtypes.c */; };
+		ED40984D25B115EE00D05546 /* pro_types.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40980425B115EE00D05546 /* pro_types.c */; };
+		ED40984E25B115EE00D05546 /* libdwarf2.1.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED40980B25B115EE00D05546 /* libdwarf2.1.mm */; };
+		ED40984F25B115EE00D05546 /* dwarf_form.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40980E25B115EE00D05546 /* dwarf_form.c */; };
+		ED40985025B115EE00D05546 /* pro_frame.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40981025B115EE00D05546 /* pro_frame.c */; };
+		ED40985125B115EE00D05546 /* pro_encode_nm.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40981525B115EE00D05546 /* pro_encode_nm.c */; };
+		ED40985225B115EE00D05546 /* dwarf_leb.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40981625B115EE00D05546 /* dwarf_leb.c */; };
+		ED40985325B115EE00D05546 /* index.v2.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED40981825B115EE00D05546 /* index.v2.mm */; };
+		ED40985425B115EE00D05546 /* dwarf_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40981925B115EE00D05546 /* dwarf_alloc.c */; };
+		ED40985525B115EE00D05546 /* pro_section.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40981E25B115EE00D05546 /* pro_section.c */; };
+		ED40985625B115EE00D05546 /* pro_expr.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40981F25B115EE00D05546 /* pro_expr.c */; };
+		ED40985725B115EE00D05546 /* dwarf_init_finish.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40982025B115EE00D05546 /* dwarf_init_finish.c */; };
+		ED40985825B115EE00D05546 /* pro_reloc_symbolic.c in Sources */ = {isa = PBXBuildFile; fileRef = ED40982125B115EE00D05546 /* pro_reloc_symbolic.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +89,121 @@
 		C0EDAFC025B06A160059EF1D /* subprograms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subprograms.h; path = ../../subprograms.h; sourceTree = "<group>"; };
 		C0EDAFC125B06A160059EF1D /* atosl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = atosl.h; path = ../../atosl.h; sourceTree = "<group>"; };
 		C0EDAFC225B06A160059EF1D /* subprograms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = subprograms.c; path = ../../subprograms.c; sourceTree = "<group>"; };
+		ED4097AE25B115EE00D05546 /* libdwarf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libdwarf.h; sourceTree = "<group>"; };
+		ED4097AF25B115EE00D05546 /* dwarf_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_error.c; sourceTree = "<group>"; };
+		ED4097B025B115EE00D05546 /* pro_die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_die.h; sourceTree = "<group>"; };
+		ED4097B125B115EE00D05546 /* dwarf_opaque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_opaque.h; sourceTree = "<group>"; };
+		ED4097B225B115EE00D05546 /* pro_arange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_arange.h; sourceTree = "<group>"; };
+		ED4097B325B115EE00D05546 /* bldDWindex.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = bldDWindex.sh; sourceTree = "<group>"; };
+		ED4097B425B115EE00D05546 /* dwarf_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_string.c; sourceTree = "<group>"; };
+		ED4097B525B115EE00D05546 /* dwarf_sort_line.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_sort_line.c; sourceTree = "<group>"; };
+		ED4097B625B115EE00D05546 /* pro_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_error.h; sourceTree = "<group>"; };
+		ED4097B725B115EE00D05546 /* pro_reloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_reloc.c; sourceTree = "<group>"; };
+		ED4097B825B115EE00D05546 /* pro_macinfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_macinfo.c; sourceTree = "<group>"; };
+		ED4097B925B115EE00D05546 /* pro_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_types.h; sourceTree = "<group>"; };
+		ED4097BA25B115EE00D05546 /* dwarf_weaks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_weaks.h; sourceTree = "<group>"; };
+		ED4097BB25B115EE00D05546 /* dwarf_funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_funcs.h; sourceTree = "<group>"; };
+		ED4097BC25B115EE00D05546 /* dwarf_vars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_vars.c; sourceTree = "<group>"; };
+		ED4097BD25B115EE00D05546 /* LIBDWARFCOPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LIBDWARFCOPYRIGHT; sourceTree = "<group>"; };
+		ED4097BE25B115EE00D05546 /* dwarf_types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_types.c; sourceTree = "<group>"; };
+		ED4097BF25B115EE00D05546 /* dwarf_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_global.h; sourceTree = "<group>"; };
+		ED4097C025B115EE00D05546 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		ED4097C125B115EE00D05546 /* dwarf_die_deliv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_die_deliv.h; sourceTree = "<group>"; };
+		ED4097C225B115EE00D05546 /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		ED4097C325B115EE00D05546 /* dwarf_abbrev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_abbrev.h; sourceTree = "<group>"; };
+		ED4097C425B115EE00D05546 /* dwarf_line.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_line.c; sourceTree = "<group>"; };
+		ED4097C525B115EE00D05546 /* pro_funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_funcs.c; sourceTree = "<group>"; };
+		ED4097C625B115EE00D05546 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		ED4097C725B115EE00D05546 /* pro_weaks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_weaks.c; sourceTree = "<group>"; };
+		ED4097C825B115EE00D05546 /* dwarf_arange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_arange.c; sourceTree = "<group>"; };
+		ED4097C925B115EE00D05546 /* dwarf_query.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_query.c; sourceTree = "<group>"; };
+		ED4097CA25B115EE00D05546 /* pro_encode_nm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_encode_nm.h; sourceTree = "<group>"; };
+		ED4097CB25B115EE00D05546 /* dwarf_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_util.c; sourceTree = "<group>"; };
+		ED4097CC25B115EE00D05546 /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		ED4097CD25B115EE00D05546 /* dwarf_addr_finder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_addr_finder.c; sourceTree = "<group>"; };
+		ED4097CE25B115EE00D05546 /* dwarf_line2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_line2.c; sourceTree = "<group>"; };
+		ED4097CF25B115EE00D05546 /* pro_frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_frame.h; sourceTree = "<group>"; };
+		ED4097D025B115EE00D05546 /* pro_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_init.c; sourceTree = "<group>"; };
+		ED4097D125B115EE00D05546 /* pro_line.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_line.c; sourceTree = "<group>"; };
+		ED4097D225B115EE00D05546 /* dwarf_frame2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_frame2.c; sourceTree = "<group>"; };
+		ED4097D325B115EE00D05546 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		ED4097D425B115EE00D05546 /* pro_vars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_vars.c; sourceTree = "<group>"; };
+		ED4097D525B115EE00D05546 /* dwarf_loc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_loc.c; sourceTree = "<group>"; };
+		ED4097D625B115EE00D05546 /* dwarf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf.h; sourceTree = "<group>"; };
+		ED4097D725B115EE00D05546 /* pro_reloc_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_reloc_stream.c; sourceTree = "<group>"; };
+		ED4097D825B115EE00D05546 /* pro_finish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_finish.c; sourceTree = "<group>"; };
+		ED4097D925B115EE00D05546 /* dwarf_base_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_base_types.h; sourceTree = "<group>"; };
+		ED4097DA25B115EE00D05546 /* dwarf_frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_frame.c; sourceTree = "<group>"; };
+		ED4097DB25B115EE00D05546 /* pro_forms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_forms.c; sourceTree = "<group>"; };
+		ED4097DC25B115EE00D05546 /* dwarf_print_lines.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_print_lines.c; sourceTree = "<group>"; };
+		ED4097DD25B115EE00D05546 /* pro_reloc_symbolic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_reloc_symbolic.h; sourceTree = "<group>"; };
+		ED4097DE25B115EE00D05546 /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		ED4097DF25B115EE00D05546 /* pro_expr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_expr.h; sourceTree = "<group>"; };
+		ED4097E025B115EE00D05546 /* pro_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_alloc.c; sourceTree = "<group>"; };
+		ED4097E125B115EE00D05546 /* dwarf_macro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_macro.c; sourceTree = "<group>"; };
+		ED4097E225B115EE00D05546 /* pro_section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_section.h; sourceTree = "<group>"; };
+		ED4097E325B115EE00D05546 /* config.guess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		ED4097E425B115EE00D05546 /* malloc_check.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = malloc_check.c; sourceTree = "<group>"; };
+		ED4097E525B115EE00D05546 /* pro_pubnames.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_pubnames.c; sourceTree = "<group>"; };
+		ED4097E625B115EE00D05546 /* dwarf_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_alloc.h; sourceTree = "<group>"; };
+		ED4097E725B115EE00D05546 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		ED4097E825B115EE00D05546 /* configure.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		ED4097E925B115EE00D05546 /* pro_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_error.c; sourceTree = "<group>"; };
+		ED4097EA25B115EE00D05546 /* libdwarf2p.1.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = libdwarf2p.1.mm; sourceTree = "<group>"; };
+		ED4097EB25B115EE00D05546 /* pro_reloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_reloc.h; sourceTree = "<group>"; };
+		ED4097EC25B115EE00D05546 /* pro_arange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_arange.c; sourceTree = "<group>"; };
+		ED4097ED25B115EE00D05546 /* mips_extensions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mips_extensions.mm; sourceTree = "<group>"; };
+		ED4097EE25B115EE00D05546 /* config.sub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		ED4097EF25B115EE00D05546 /* pro_die.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_die.c; sourceTree = "<group>"; };
+		ED4097F025B115EE00D05546 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		ED4097F125B115EE00D05546 /* dwarf_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_error.h; sourceTree = "<group>"; };
+		ED4097F225B115EE00D05546 /* dwarf_frame3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_frame3.c; sourceTree = "<group>"; };
+		ED4097F325B115EE00D05546 /* dwarf.v2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dwarf.v2.mm; sourceTree = "<group>"; };
+		ED4097F425B115EE00D05546 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		ED4097F525B115EE00D05546 /* dwarf_line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_line.h; sourceTree = "<group>"; };
+		ED4097F625B115EE00D05546 /* dwarf_abbrev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_abbrev.c; sourceTree = "<group>"; };
+		ED4097F725B115EE00D05546 /* dwarf_arange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_arange.h; sourceTree = "<group>"; };
+		ED4097F825B115EE00D05546 /* libdwarf2p.1.ps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libdwarf2p.1.ps; sourceTree = "<group>"; };
+		ED4097F925B115EE00D05546 /* mips_extensions.ps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mips_extensions.ps; sourceTree = "<group>"; };
+		ED4097FA25B115EE00D05546 /* dwarf_global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_global.c; sourceTree = "<group>"; };
+		ED4097FB25B115EE00D05546 /* dwarf_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_types.h; sourceTree = "<group>"; };
+		ED4097FC25B115EE00D05546 /* dwarf_vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_vars.h; sourceTree = "<group>"; };
+		ED4097FD25B115EE00D05546 /* dwarf_die_deliv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_die_deliv.c; sourceTree = "<group>"; };
+		ED4097FE25B115EE00D05546 /* dwarf_stubs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_stubs.c; sourceTree = "<group>"; };
+		ED4097FF25B115EE00D05546 /* dwarf_funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_funcs.c; sourceTree = "<group>"; };
+		ED40980025B115EE00D05546 /* dwarf_weaks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_weaks.c; sourceTree = "<group>"; };
+		ED40980125B115EE00D05546 /* pro_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_util.h; sourceTree = "<group>"; };
+		ED40980225B115EE00D05546 /* dwarf_pubtypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_pubtypes.c; sourceTree = "<group>"; };
+		ED40980325B115EE00D05546 /* pro_opaque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_opaque.h; sourceTree = "<group>"; };
+		ED40980425B115EE00D05546 /* pro_types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_types.c; sourceTree = "<group>"; };
+		ED40980525B115EE00D05546 /* pro_macinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_macinfo.h; sourceTree = "<group>"; };
+		ED40980625B115EE00D05546 /* pro_incl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_incl.h; sourceTree = "<group>"; };
+		ED40980725B115EE00D05546 /* dwarf.v2.ps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dwarf.v2.ps; sourceTree = "<group>"; };
+		ED40980825B115EE00D05546 /* pro_reloc_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_reloc_stream.h; sourceTree = "<group>"; };
+		ED40980925B115EE00D05546 /* dwarf_loc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_loc.h; sourceTree = "<group>"; };
+		ED40980A25B115EE00D05546 /* index.v2.ps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.v2.ps; sourceTree = "<group>"; };
+		ED40980B25B115EE00D05546 /* libdwarf2.1.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = libdwarf2.1.mm; sourceTree = "<group>"; };
+		ED40980C25B115EE00D05546 /* dwarf_frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_frame.h; sourceTree = "<group>"; };
+		ED40980D25B115EE00D05546 /* pro_line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_line.h; sourceTree = "<group>"; };
+		ED40980E25B115EE00D05546 /* dwarf_form.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_form.c; sourceTree = "<group>"; };
+		ED40980F25B115EE00D05546 /* dwarf_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_util.h; sourceTree = "<group>"; };
+		ED40981025B115EE00D05546 /* pro_frame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_frame.c; sourceTree = "<group>"; };
+		ED40981125B115EE00D05546 /* libdwarfdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libdwarfdefs.h; sourceTree = "<group>"; };
+		ED40981225B115EE00D05546 /* dwarf_incl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_incl.h; sourceTree = "<group>"; };
+		ED40981425B115EE00D05546 /* dwarf_addr_finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_addr_finder.h; sourceTree = "<group>"; };
+		ED40981525B115EE00D05546 /* pro_encode_nm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_encode_nm.c; sourceTree = "<group>"; };
+		ED40981625B115EE00D05546 /* dwarf_leb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_leb.c; sourceTree = "<group>"; };
+		ED40981725B115EE00D05546 /* libdwarf2.1.ps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libdwarf2.1.ps; sourceTree = "<group>"; };
+		ED40981825B115EE00D05546 /* index.v2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = index.v2.mm; sourceTree = "<group>"; };
+		ED40981925B115EE00D05546 /* dwarf_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_alloc.c; sourceTree = "<group>"; };
+		ED40981A25B115EE00D05546 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		ED40981B25B115EE00D05546 /* dwarf_macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwarf_macro.h; sourceTree = "<group>"; };
+		ED40981C25B115EE00D05546 /* pro_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pro_alloc.h; sourceTree = "<group>"; };
+		ED40981D25B115EE00D05546 /* malloc_check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = malloc_check.h; sourceTree = "<group>"; };
+		ED40981E25B115EE00D05546 /* pro_section.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_section.c; sourceTree = "<group>"; };
+		ED40981F25B115EE00D05546 /* pro_expr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_expr.c; sourceTree = "<group>"; };
+		ED40982025B115EE00D05546 /* dwarf_init_finish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwarf_init_finish.c; sourceTree = "<group>"; };
+		ED40982125B115EE00D05546 /* pro_reloc_symbolic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pro_reloc_symbolic.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +220,7 @@
 		C0EDAFA925B069B30059EF1D = {
 			isa = PBXGroup;
 			children = (
+				ED4097AD25B115EE00D05546 /* libdwarf */,
 				C0EDAFB425B069B30059EF1D /* atosl-example */,
 				C0EDAFB325B069B30059EF1D /* Products */,
 			);
@@ -75,6 +246,137 @@
 				C0EDAFB525B069B30059EF1D /* main.c */,
 			);
 			path = "atosl-example";
+			sourceTree = "<group>";
+		};
+		ED4097AD25B115EE00D05546 /* libdwarf */ = {
+			isa = PBXGroup;
+			children = (
+				ED4097AE25B115EE00D05546 /* libdwarf.h */,
+				ED4097AF25B115EE00D05546 /* dwarf_error.c */,
+				ED4097B025B115EE00D05546 /* pro_die.h */,
+				ED4097B125B115EE00D05546 /* dwarf_opaque.h */,
+				ED4097B225B115EE00D05546 /* pro_arange.h */,
+				ED4097B325B115EE00D05546 /* bldDWindex.sh */,
+				ED4097B425B115EE00D05546 /* dwarf_string.c */,
+				ED4097B525B115EE00D05546 /* dwarf_sort_line.c */,
+				ED4097B625B115EE00D05546 /* pro_error.h */,
+				ED4097B725B115EE00D05546 /* pro_reloc.c */,
+				ED4097B825B115EE00D05546 /* pro_macinfo.c */,
+				ED4097B925B115EE00D05546 /* pro_types.h */,
+				ED4097BA25B115EE00D05546 /* dwarf_weaks.h */,
+				ED4097BB25B115EE00D05546 /* dwarf_funcs.h */,
+				ED4097BC25B115EE00D05546 /* dwarf_vars.c */,
+				ED4097BD25B115EE00D05546 /* LIBDWARFCOPYRIGHT */,
+				ED4097BE25B115EE00D05546 /* dwarf_types.c */,
+				ED4097BF25B115EE00D05546 /* dwarf_global.h */,
+				ED4097C025B115EE00D05546 /* config.h */,
+				ED4097C125B115EE00D05546 /* dwarf_die_deliv.h */,
+				ED4097C225B115EE00D05546 /* configure */,
+				ED4097C325B115EE00D05546 /* dwarf_abbrev.h */,
+				ED4097C425B115EE00D05546 /* dwarf_line.c */,
+				ED4097C525B115EE00D05546 /* pro_funcs.c */,
+				ED4097C625B115EE00D05546 /* ChangeLog */,
+				ED4097C725B115EE00D05546 /* pro_weaks.c */,
+				ED4097C825B115EE00D05546 /* dwarf_arange.c */,
+				ED4097C925B115EE00D05546 /* dwarf_query.c */,
+				ED4097CA25B115EE00D05546 /* pro_encode_nm.h */,
+				ED4097CB25B115EE00D05546 /* dwarf_util.c */,
+				ED4097CC25B115EE00D05546 /* CHANGES */,
+				ED4097CD25B115EE00D05546 /* dwarf_addr_finder.c */,
+				ED4097CE25B115EE00D05546 /* dwarf_line2.c */,
+				ED4097CF25B115EE00D05546 /* pro_frame.h */,
+				ED4097D025B115EE00D05546 /* pro_init.c */,
+				ED4097D125B115EE00D05546 /* pro_line.c */,
+				ED4097D225B115EE00D05546 /* dwarf_frame2.c */,
+				ED4097D325B115EE00D05546 /* install.sh */,
+				ED4097D425B115EE00D05546 /* pro_vars.c */,
+				ED4097D525B115EE00D05546 /* dwarf_loc.c */,
+				ED4097D625B115EE00D05546 /* dwarf.h */,
+				ED4097D725B115EE00D05546 /* pro_reloc_stream.c */,
+				ED4097D825B115EE00D05546 /* pro_finish.c */,
+				ED4097D925B115EE00D05546 /* dwarf_base_types.h */,
+				ED4097DA25B115EE00D05546 /* dwarf_frame.c */,
+				ED4097DB25B115EE00D05546 /* pro_forms.c */,
+				ED4097DC25B115EE00D05546 /* dwarf_print_lines.c */,
+				ED4097DD25B115EE00D05546 /* pro_reloc_symbolic.h */,
+				ED4097DE25B115EE00D05546 /* config.h.in */,
+				ED4097DF25B115EE00D05546 /* pro_expr.h */,
+				ED4097E025B115EE00D05546 /* pro_alloc.c */,
+				ED4097E125B115EE00D05546 /* dwarf_macro.c */,
+				ED4097E225B115EE00D05546 /* pro_section.h */,
+				ED4097E325B115EE00D05546 /* config.guess */,
+				ED4097E425B115EE00D05546 /* malloc_check.c */,
+				ED4097E525B115EE00D05546 /* pro_pubnames.c */,
+				ED4097E625B115EE00D05546 /* dwarf_alloc.h */,
+				ED4097E725B115EE00D05546 /* README */,
+				ED4097E825B115EE00D05546 /* configure.in */,
+				ED4097E925B115EE00D05546 /* pro_error.c */,
+				ED4097EA25B115EE00D05546 /* libdwarf2p.1.mm */,
+				ED4097EB25B115EE00D05546 /* pro_reloc.h */,
+				ED4097EC25B115EE00D05546 /* pro_arange.c */,
+				ED4097ED25B115EE00D05546 /* mips_extensions.mm */,
+				ED4097EE25B115EE00D05546 /* config.sub */,
+				ED4097EF25B115EE00D05546 /* pro_die.c */,
+				ED4097F025B115EE00D05546 /* COPYING */,
+				ED4097F125B115EE00D05546 /* dwarf_error.h */,
+				ED4097F225B115EE00D05546 /* dwarf_frame3.c */,
+				ED4097F325B115EE00D05546 /* dwarf.v2.mm */,
+				ED4097F425B115EE00D05546 /* NEWS */,
+				ED4097F525B115EE00D05546 /* dwarf_line.h */,
+				ED4097F625B115EE00D05546 /* dwarf_abbrev.c */,
+				ED4097F725B115EE00D05546 /* dwarf_arange.h */,
+				ED4097F825B115EE00D05546 /* libdwarf2p.1.ps */,
+				ED4097F925B115EE00D05546 /* mips_extensions.ps */,
+				ED4097FA25B115EE00D05546 /* dwarf_global.c */,
+				ED4097FB25B115EE00D05546 /* dwarf_types.h */,
+				ED4097FC25B115EE00D05546 /* dwarf_vars.h */,
+				ED4097FD25B115EE00D05546 /* dwarf_die_deliv.c */,
+				ED4097FE25B115EE00D05546 /* dwarf_stubs.c */,
+				ED4097FF25B115EE00D05546 /* dwarf_funcs.c */,
+				ED40980025B115EE00D05546 /* dwarf_weaks.c */,
+				ED40980125B115EE00D05546 /* pro_util.h */,
+				ED40980225B115EE00D05546 /* dwarf_pubtypes.c */,
+				ED40980325B115EE00D05546 /* pro_opaque.h */,
+				ED40980425B115EE00D05546 /* pro_types.c */,
+				ED40980525B115EE00D05546 /* pro_macinfo.h */,
+				ED40980625B115EE00D05546 /* pro_incl.h */,
+				ED40980725B115EE00D05546 /* dwarf.v2.ps */,
+				ED40980825B115EE00D05546 /* pro_reloc_stream.h */,
+				ED40980925B115EE00D05546 /* dwarf_loc.h */,
+				ED40980A25B115EE00D05546 /* index.v2.ps */,
+				ED40980B25B115EE00D05546 /* libdwarf2.1.mm */,
+				ED40980C25B115EE00D05546 /* dwarf_frame.h */,
+				ED40980D25B115EE00D05546 /* pro_line.h */,
+				ED40980E25B115EE00D05546 /* dwarf_form.c */,
+				ED40980F25B115EE00D05546 /* dwarf_util.h */,
+				ED40981025B115EE00D05546 /* pro_frame.c */,
+				ED40981125B115EE00D05546 /* libdwarfdefs.h */,
+				ED40981225B115EE00D05546 /* dwarf_incl.h */,
+				ED40981325B115EE00D05546 /* cmplrs */,
+				ED40981525B115EE00D05546 /* pro_encode_nm.c */,
+				ED40981625B115EE00D05546 /* dwarf_leb.c */,
+				ED40981725B115EE00D05546 /* libdwarf2.1.ps */,
+				ED40981825B115EE00D05546 /* index.v2.mm */,
+				ED40981925B115EE00D05546 /* dwarf_alloc.c */,
+				ED40981A25B115EE00D05546 /* Makefile.in */,
+				ED40981B25B115EE00D05546 /* dwarf_macro.h */,
+				ED40981C25B115EE00D05546 /* pro_alloc.h */,
+				ED40981D25B115EE00D05546 /* malloc_check.h */,
+				ED40981E25B115EE00D05546 /* pro_section.c */,
+				ED40981F25B115EE00D05546 /* pro_expr.c */,
+				ED40982025B115EE00D05546 /* dwarf_init_finish.c */,
+				ED40982125B115EE00D05546 /* pro_reloc_symbolic.c */,
+			);
+			name = libdwarf;
+			path = ../libdwarf;
+			sourceTree = "<group>";
+		};
+		ED40981325B115EE00D05546 /* cmplrs */ = {
+			isa = PBXGroup;
+			children = (
+				ED40981425B115EE00D05546 /* dwarf_addr_finder.h */,
+			);
+			path = cmplrs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,10 +435,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED40985425B115EE00D05546 /* dwarf_alloc.c in Sources */,
+				ED40984A25B115EE00D05546 /* dwarf_funcs.c in Sources */,
+				ED40984825B115EE00D05546 /* dwarf_die_deliv.c in Sources */,
+				ED40982A25B115EE00D05546 /* pro_funcs.c in Sources */,
+				ED40983325B115EE00D05546 /* dwarf_frame2.c in Sources */,
+				ED40982625B115EE00D05546 /* pro_macinfo.c in Sources */,
+				ED40985225B115EE00D05546 /* dwarf_leb.c in Sources */,
+				ED40982425B115EE00D05546 /* dwarf_sort_line.c in Sources */,
+				ED40983E25B115EE00D05546 /* pro_pubnames.c in Sources */,
+				ED40984525B115EE00D05546 /* dwarf.v2.mm in Sources */,
+				ED40984C25B115EE00D05546 /* dwarf_pubtypes.c in Sources */,
+				ED40985725B115EE00D05546 /* dwarf_init_finish.c in Sources */,
+				ED40982E25B115EE00D05546 /* dwarf_util.c in Sources */,
+				ED40982525B115EE00D05546 /* pro_reloc.c in Sources */,
+				ED40985825B115EE00D05546 /* pro_reloc_symbolic.c in Sources */,
+				ED40983825B115EE00D05546 /* dwarf_frame.c in Sources */,
+				ED40983C25B115EE00D05546 /* dwarf_macro.c in Sources */,
+				ED40984225B115EE00D05546 /* mips_extensions.mm in Sources */,
+				ED40983A25B115EE00D05546 /* dwarf_print_lines.c in Sources */,
+				ED40983725B115EE00D05546 /* pro_finish.c in Sources */,
 				C0EDAFC425B06A160059EF1D /* atosl.c in Sources */,
+				ED40984D25B115EE00D05546 /* pro_types.c in Sources */,
+				ED40982925B115EE00D05546 /* dwarf_line.c in Sources */,
+				ED40983125B115EE00D05546 /* pro_init.c in Sources */,
+				ED40985125B115EE00D05546 /* pro_encode_nm.c in Sources */,
+				ED40983F25B115EE00D05546 /* pro_error.c in Sources */,
+				ED40984625B115EE00D05546 /* dwarf_abbrev.c in Sources */,
+				ED40982825B115EE00D05546 /* dwarf_types.c in Sources */,
+				ED40982D25B115EE00D05546 /* dwarf_query.c in Sources */,
+				ED40985525B115EE00D05546 /* pro_section.c in Sources */,
+				ED40982F25B115EE00D05546 /* dwarf_addr_finder.c in Sources */,
+				ED40984925B115EE00D05546 /* dwarf_stubs.c in Sources */,
+				ED40983425B115EE00D05546 /* pro_vars.c in Sources */,
+				ED40983925B115EE00D05546 /* pro_forms.c in Sources */,
+				ED40984E25B115EE00D05546 /* libdwarf2.1.mm in Sources */,
+				ED40985025B115EE00D05546 /* pro_frame.c in Sources */,
+				ED40984725B115EE00D05546 /* dwarf_global.c in Sources */,
+				ED40982C25B115EE00D05546 /* dwarf_arange.c in Sources */,
+				ED40983225B115EE00D05546 /* pro_line.c in Sources */,
+				ED40985325B115EE00D05546 /* index.v2.mm in Sources */,
+				ED40983D25B115EE00D05546 /* malloc_check.c in Sources */,
+				ED40984125B115EE00D05546 /* pro_arange.c in Sources */,
+				ED40982B25B115EE00D05546 /* pro_weaks.c in Sources */,
+				ED40984B25B115EE00D05546 /* dwarf_weaks.c in Sources */,
+				ED40985625B115EE00D05546 /* pro_expr.c in Sources */,
+				ED40984F25B115EE00D05546 /* dwarf_form.c in Sources */,
+				ED40982725B115EE00D05546 /* dwarf_vars.c in Sources */,
+				ED40983625B115EE00D05546 /* pro_reloc_stream.c in Sources */,
+				ED40982325B115EE00D05546 /* dwarf_string.c in Sources */,
+				ED40983B25B115EE00D05546 /* pro_alloc.c in Sources */,
 				C0EDAFC325B06A160059EF1D /* common.c in Sources */,
+				ED40983025B115EE00D05546 /* dwarf_line2.c in Sources */,
+				ED40984325B115EE00D05546 /* pro_die.c in Sources */,
+				ED40984425B115EE00D05546 /* dwarf_frame3.c in Sources */,
 				C0EDAFB625B069B30059EF1D /* main.c in Sources */,
+				ED40983525B115EE00D05546 /* dwarf_loc.c in Sources */,
+				ED40982225B115EE00D05546 /* dwarf_error.c in Sources */,
 				C0EDAFC525B06A160059EF1D /* subprograms.c in Sources */,
+				ED40984025B115EE00D05546 /* libdwarf2p.1.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
