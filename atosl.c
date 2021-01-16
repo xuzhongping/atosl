@@ -1001,19 +1001,23 @@ int print_dwarf_symbol(Dwarf_Debug dbg, Dwarf_Addr slide, Dwarf_Addr addr)
     int i;
     int found = 0;
 
+    // dwarf符号地址 = 运行时符号地址 - 偏移
     addr -= slide;
 
+    // 获取.debug_aranges section数据
     if (!arange_buf) {
         ret = dwarf_get_aranges(dbg, &arange_buf, &count, &err);
         DWARF_ASSERT(ret, err);
     }
 
+    // 根据addr获取在.debug_aranges中对应的arange项
     ret = dwarf_get_arange(arange_buf, count, addr, &arange, &err);
     DWARF_ASSERT(ret, err);
 
     if (ret == DW_DLV_NO_ENTRY)
         return ret;
 
+    // 获取 range_info信息（最重要的是cu_die_offset）
     ret = dwarf_get_arange_info_b(
             arange,
             &segment,
@@ -1024,15 +1028,17 @@ int print_dwarf_symbol(Dwarf_Debug dbg, Dwarf_Addr slide, Dwarf_Addr addr)
             &err);
     DWARF_ASSERT(ret, err);
 
+    // 获取cu_die (DW_TAG_compile_unit)
     ret = dwarf_offdie(dbg, cu_die_offset, &cu_die, &err);
     DWARF_ASSERT(ret, err);
 
+    // 至此已经能得到源码文件路径
     /* ret = dwarf_print_lines(cu_die, &err, &errcnt); */
     /* DWARF_ASSERT(ret, err); */
 
+    // 获取.debug_line section的数据
     ret = dwarf_srclines(cu_die, &linebuf, &linecount, &err);
     DWARF_ASSERT(ret, err);
-
     for (i = 0; i < linecount; i++) {
         Dwarf_Line prevline;
         Dwarf_Line nextline;
@@ -1071,15 +1077,19 @@ int print_dwarf_symbol(Dwarf_Debug dbg, Dwarf_Addr slide, Dwarf_Addr addr)
             struct dwarf_subprogram_t *symbol;
             const char *name;
 
+            // 获取文件名
             ret = dwarf_linesrc(line, &filename, &err);
             DWARF_ASSERT(ret, err);
 
+            // 获取行号
             ret = dwarf_lineno(line, &lineno, &err);
             DWARF_ASSERT(ret, err);
 
+            // 获取die的name
             ret = dwarf_diename(cu_die, &diename, &err);
             DWARF_ASSERT(ret, err);
 
+            // 获取符号名
             symbol = lookup_symbol(addr);
 
             name = symbol ? symbol->name : "(unknown)";
